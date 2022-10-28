@@ -1,0 +1,88 @@
+.todos__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.todos__pagination {
+  margin-top: 20px;
+}
+
+.todos-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.todos-item:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.todos-item--completed {
+  background-color: #eee;
+  text-decoration: line-through;
+}
+
+.todos-item__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.todos-item__button {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.todos-item__button:hover svg {
+  fill: #ff0000;
+}
+
+.todos-item__button svg {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 20px;
+  height: 20px;
+}
+
+.todos-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.todos-pagination__item {
+  background: transparent;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.todos-pagination__item:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.todos-pagination__item--active {
+  background-color: #eee;
+}
+/*# sourceMappingURL=styles.css.map */
